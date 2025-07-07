@@ -14,10 +14,6 @@
 
 /* Header */
 
-.elements-header {
-    padding: 10px;
-}
-
 nav {
     display: flex;
     justify-content: flex-end;
@@ -72,17 +68,19 @@ nav ul li {
 }
 
 .products img {
+    display: block;
     width: 300px;
 }
 
 .price {
     display: flex;
+    margin-left: 15px;
     gap: 20px;
 }
 
 #promotion {
     position: relative;
-    margin-left: 300px;
+    margin-left: 280px;
     bottom: 300px;
     background-color: black;
     width: 60px;
@@ -95,7 +93,17 @@ nav ul li {
     font-weight: bold;
 }
 
+
 /* Footer */
+footer {
+    background-color: rgb(63, 61, 61);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
 .nav-footer {
     background-color: white;
     width: 400px;
@@ -135,28 +143,11 @@ nav ul li {
     flex-direction: column;
 }
 
-figcaption {
-    color: white;
-}
 
 .social {
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-
-footer {
-    background-color: rgb(63, 61, 61);
-}
-
-
-footer p {
-    color: white;
-    text-align: center;
-}
-
-
-
-
