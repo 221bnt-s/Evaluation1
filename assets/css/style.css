@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+/* Header */
+
+.elements-header {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.bonjour {
+    margin-right: 145px;
+}
+
+.banner {
+    background-image: url('../img/header-page-catalogue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 334px;
+}
+
+/* Classe : products */
+.products {
+    height: 900px;
+}
+
+.ligne1 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.ligne2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.elements-gant1 {
+    width: 320px;
+    text-align:center;
+}
+
+.elements-gant2 {
+    width: 320px;
+    text-align:center;
+}
+
+.products img {
+    width: 300px;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+}
+
+#promotion {
+    position: relative;
+    margin-left: 300px;
+    bottom: 300px;
+    background-color: black;
+    width: 60px;
+    height: 40px;
+    color: orange;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Footer */
+.nav-footer {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    margin-left: 450px;
+    margin-top: 10px;
+   
+}
+.nav-footer ul {
+    display: flex; 
+    gap: 20px;
+}
+.nav-footer ul li {
+    list-style-type: none;
+}
+
+.nav2-footer {
+    display: flex;
+    padding-top:20px;
+
+    div {
+        width: 300px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.livre, .camion, .pouce, .cadenas {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    color: white;
+}
+
+.social {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+footer {
+    background-color: rgb(63, 61, 61);
+}
+
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+
+
+
